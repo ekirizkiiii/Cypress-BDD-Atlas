@@ -1,0 +1,43 @@
+pipeline{
+
+    //untuk define dimana mau di run
+    agent{
+        node{
+            label 'docker-chrome'
+        }
+    }
+
+    //kumpulan task yang akan kita assign di job tersebut
+    //Task: run automation test
+    //1. Clone source code/repo dan masuk ke dalam project => bisa skip ototmatis
+    //2. Install dependencies
+    //3. run test => run all test
+    //4. Generate report
+    stages{
+        stage('Install Dependencies'){
+            steps{
+                sh "npm ci"
+            }
+        }
+
+        stage('Run Test'){
+            steps{
+                sh "npm test"
+            }
+        }
+
+        stage('Generate Report'){
+            steps{
+                sh "npm run reporter"
+            }
+        }
+    }
+
+    //yang akan diexecute setelah semua stages
+    //always 
+    post{
+        always{
+            echo "ini adalah post"
+        }
+    }
+}
