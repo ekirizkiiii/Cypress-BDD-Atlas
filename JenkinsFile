@@ -7,6 +7,11 @@ pipeline{
         }
     }
 
+    parameters{
+        choice(name: 'RUN', choices: ['ALL', 'TAGS'], description: 'Run Test by')
+        string(name: 'TAGS', defaultValue: '', description: 'Tags to execute')
+    }
+
     //kumpulan task yang akan kita assign di job tersebut
     //Task: run automation test
     //1. Clone source code/repo dan masuk ke dalam project => bisa skip ototmatis
@@ -22,6 +27,13 @@ pipeline{
 
         stage('Run Test'){
             steps{
+                script{
+                    if(params.RUN=='ALL'){
+                        sh "npm ci"
+                    }else{
+                        sh "npm run cypress-tags -- run -e TAGS='${params.TAGS}'"
+                    }
+                }
                 sh "npm test"
             }
         }

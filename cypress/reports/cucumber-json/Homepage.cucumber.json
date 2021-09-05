@@ -17,6 +17,10 @@
           {
             "name": "@TC001",
             "line": 5
+          },
+          {
+            "name": "@BlueColor",
+            "line": 5
           }
         ],
         "type": "scenario",
@@ -28,7 +32,7 @@
             "name": "I open BDD Atlas Web",
             "result": {
               "status": "passed",
-              "duration": 3503000000
+              "duration": 3313000000
             }
           },
           {
@@ -38,7 +42,7 @@
             "name": "I type a quote : coba coba text",
             "result": {
               "status": "passed",
-              "duration": 426000000
+              "duration": 498000000
             }
           },
           {
@@ -48,7 +52,7 @@
             "name": "I choose the Blue Colour",
             "result": {
               "status": "passed",
-              "duration": 211000000
+              "duration": 212000000
             }
           },
           {
@@ -58,7 +62,7 @@
             "name": "I verify quote submitted \"Blue\" and \"coba coba\"",
             "result": {
               "status": "passed",
-              "duration": 163000000
+              "duration": 218000000
             }
           },
           {
@@ -68,7 +72,7 @@
             "name": "I verify quote has been deleted : coba",
             "result": {
               "status": "passed",
-              "duration": 184000000
+              "duration": 205000000
             }
           }
         ]
@@ -82,6 +86,10 @@
           {
             "name": "@TC002",
             "line": 13
+          },
+          {
+            "name": "@AllColor",
+            "line": 13
           }
         ],
         "type": "scenario",
@@ -92,8 +100,7 @@
             "line": 15,
             "name": "I open BDD Atlas Web",
             "result": {
-              "status": "passed",
-              "duration": 692000000
+              "status": "skipped"
             }
           },
           {
@@ -102,8 +109,7 @@
             "line": 16,
             "name": "I type a quote : coba coba text",
             "result": {
-              "status": "passed",
-              "duration": 451000000
+              "status": "skipped"
             }
           },
           {
@@ -112,8 +118,7 @@
             "line": 17,
             "name": "I choose the White Colour",
             "result": {
-              "status": "passed",
-              "duration": 175000000
+              "status": "skipped"
             }
           },
           {
@@ -122,8 +127,7 @@
             "line": 18,
             "name": "I verify quote submitted \"White\" and \"coba coba\"",
             "result": {
-              "status": "passed",
-              "duration": 150000000
+              "status": "skipped"
             }
           },
           {
@@ -132,8 +136,7 @@
             "line": 19,
             "name": "I verify quote has been deleted : coba",
             "result": {
-              "status": "passed",
-              "duration": 160000000
+              "status": "skipped"
             }
           }
         ]
@@ -147,6 +150,10 @@
           {
             "name": "@TC002",
             "line": 13
+          },
+          {
+            "name": "@AllColor",
+            "line": 13
           }
         ],
         "type": "scenario",
@@ -157,8 +164,7 @@
             "line": 15,
             "name": "I open BDD Atlas Web",
             "result": {
-              "status": "passed",
-              "duration": 317000000
+              "status": "skipped"
             }
           },
           {
@@ -167,8 +173,7 @@
             "line": 16,
             "name": "I type a quote : coba coba text",
             "result": {
-              "status": "passed",
-              "duration": 587000000
+              "status": "skipped"
             }
           },
           {
@@ -177,8 +182,7 @@
             "line": 17,
             "name": "I choose the Yellow Colour",
             "result": {
-              "status": "passed",
-              "duration": 207000000
+              "status": "skipped"
             }
           },
           {
@@ -187,8 +191,7 @@
             "line": 18,
             "name": "I verify quote submitted \"Yellow\" and \"coba coba\"",
             "result": {
-              "status": "passed",
-              "duration": 162000000
+              "status": "skipped"
             }
           },
           {
@@ -197,8 +200,7 @@
             "line": 19,
             "name": "I verify quote has been deleted : coba",
             "result": {
-              "status": "passed",
-              "duration": 128000000
+              "status": "skipped"
             }
           }
         ]
@@ -212,6 +214,10 @@
           {
             "name": "@TC002",
             "line": 13
+          },
+          {
+            "name": "@AllColor",
+            "line": 13
           }
         ],
         "type": "scenario",
@@ -222,8 +228,7 @@
             "line": 15,
             "name": "I open BDD Atlas Web",
             "result": {
-              "status": "passed",
-              "duration": 235000000
+              "status": "skipped"
             }
           },
           {
@@ -232,8 +237,7 @@
             "line": 16,
             "name": "I type a quote : coba coba text",
             "result": {
-              "status": "passed",
-              "duration": 373000000
+              "status": "skipped"
             }
           },
           {
@@ -242,8 +246,7 @@
             "line": 17,
             "name": "I choose the Cyan Colour",
             "result": {
-              "status": "passed",
-              "duration": 162000000
+              "status": "skipped"
             }
           },
           {
@@ -252,8 +255,7 @@
             "line": 18,
             "name": "I verify quote submitted \"Cyan\" and \"coba coba\"",
             "result": {
-              "status": "passed",
-              "duration": 136000000
+              "status": "skipped"
             }
           },
           {
@@ -262,8 +264,7 @@
             "line": 19,
             "name": "I verify quote has been deleted : coba",
             "result": {
-              "status": "passed",
-              "duration": 97000000
+              "status": "skipped"
             }
           }
         ]
@@ -277,6 +278,10 @@
           {
             "name": "@TC002",
             "line": 13
+          },
+          {
+            "name": "@AllColor",
+            "line": 13
           }
         ],
         "type": "scenario",
@@ -287,8 +292,7 @@
             "line": 15,
             "name": "I open BDD Atlas Web",
             "result": {
-              "status": "passed",
-              "duration": 215000000
+              "status": "skipped"
             }
           },
           {
@@ -297,8 +301,7 @@
             "line": 16,
             "name": "I type a quote : coba coba text",
             "result": {
-              "status": "passed",
-              "duration": 383000000
+              "status": "skipped"
             }
           },
           {
@@ -307,8 +310,7 @@
             "line": 17,
             "name": "I choose the Magenta Colour",
             "result": {
-              "status": "passed",
-              "duration": 166000000
+              "status": "skipped"
             }
           },
           {
@@ -317,8 +319,7 @@
             "line": 18,
             "name": "I verify quote submitted \"Magenta\" and \"coba coba\"",
             "result": {
-              "status": "passed",
-              "duration": 134000000
+              "status": "skipped"
             }
           },
           {
@@ -327,8 +328,7 @@
             "line": 19,
             "name": "I verify quote has been deleted : coba",
             "result": {
-              "status": "passed",
-              "duration": 106000000
+              "status": "skipped"
             }
           }
         ]
