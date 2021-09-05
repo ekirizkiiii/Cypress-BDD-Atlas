@@ -1,0 +1,486 @@
+{
+  "app": 0,
+  "customMetadata": false,
+  "customData": null,
+  "style": "style.css",
+  "useCDN": false,
+  "hideMetadata": false,
+  "displayReportTime": false,
+  "displayDuration": true,
+  "browser": 1,
+  "name": "",
+  "version": "version",
+  "time": "2021-09-05T04:49:40.919Z",
+  "features": [
+    {
+      "description": "    I want to able to submit quote in various Colour",
+      "keyword": "Feature",
+      "name": "BDD Atlas Homepage Colour Quote",
+      "line": 1,
+      "id": "c5774d96-0fb5-4072-bcf4-d5c47df62da9-bdd-atlas-homepage-colour-quote",
+      "tags": [],
+      "uri": "Homepage.feature",
+      "elements": [
+        {
+          "id": "bdd-atlas-homepage-colour-quote;i-want-to-be-able-to-submit-a-blue-quote",
+          "keyword": "Scenario",
+          "line": 6,
+          "name": "I want to be able to submit a Blue Quote",
+          "tags": [
+            {
+              "name": "@TC001",
+              "line": 5
+            }
+          ],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 7,
+              "name": "I open BDD Atlas Web",
+              "result": {
+                "status": "passed",
+                "duration": 1714000000
+              },
+              "time": "00:00:01.714"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 8,
+              "name": "I type a quote : coba coba text",
+              "result": {
+                "status": "passed",
+                "duration": 430000000
+              },
+              "time": "00:00:00.430"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 9,
+              "name": "I choose the Blue Colour",
+              "result": {
+                "status": "passed",
+                "duration": 171000000
+              },
+              "time": "00:00:00.171"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 10,
+              "name": "I verify quote submitted \"Blue\" and \"coba coba\"",
+              "result": {
+                "status": "passed",
+                "duration": 159000000
+              },
+              "time": "00:00:00.159"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 11,
+              "name": "I verify quote has been deleted : coba",
+              "result": {
+                "status": "passed",
+                "duration": 150000000
+              },
+              "time": "00:00:00.150"
+            }
+          ],
+          "passed": 5,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 2624000000,
+          "time": "00:00:02.624"
+        },
+        {
+          "id": "bdd-atlas-homepage-colour-quote;i-want-to-be-able-to-submit-a-white-quote",
+          "keyword": "Scenario",
+          "line": 23,
+          "name": "I want to be able to submit a White Quote",
+          "tags": [
+            {
+              "name": "@TC002",
+              "line": 13
+            }
+          ],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 15,
+              "name": "I open BDD Atlas Web",
+              "result": {
+                "status": "passed",
+                "duration": 309000000
+              },
+              "time": "00:00:00.309"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 16,
+              "name": "I type a quote : coba coba text",
+              "result": {
+                "status": "passed",
+                "duration": 366000000
+              },
+              "time": "00:00:00.366"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 17,
+              "name": "I choose the White Colour",
+              "result": {
+                "status": "passed",
+                "duration": 157000000
+              },
+              "time": "00:00:00.157"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 18,
+              "name": "I verify quote submitted \"White\" and \"coba coba\"",
+              "result": {
+                "status": "passed",
+                "duration": 131000000
+              },
+              "time": "00:00:00.131"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 19,
+              "name": "I verify quote has been deleted : coba",
+              "result": {
+                "status": "passed",
+                "duration": 116000000
+              },
+              "time": "00:00:00.116"
+            }
+          ],
+          "passed": 5,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 1079000000,
+          "time": "00:00:01.079"
+        },
+        {
+          "id": "bdd-atlas-homepage-colour-quote;i-want-to-be-able-to-submit-a-yellow-quote",
+          "keyword": "Scenario",
+          "line": 24,
+          "name": "I want to be able to submit a Yellow Quote",
+          "tags": [
+            {
+              "name": "@TC002",
+              "line": 13
+            }
+          ],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 15,
+              "name": "I open BDD Atlas Web",
+              "result": {
+                "status": "passed",
+                "duration": 218000000
+              },
+              "time": "00:00:00.218"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 16,
+              "name": "I type a quote : coba coba text",
+              "result": {
+                "status": "passed",
+                "duration": 375000000
+              },
+              "time": "00:00:00.375"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 17,
+              "name": "I choose the Yellow Colour",
+              "result": {
+                "status": "passed",
+                "duration": 163000000
+              },
+              "time": "00:00:00.163"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 18,
+              "name": "I verify quote submitted \"Yellow\" and \"coba coba\"",
+              "result": {
+                "status": "passed",
+                "duration": 126000000
+              },
+              "time": "00:00:00.126"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 19,
+              "name": "I verify quote has been deleted : coba",
+              "result": {
+                "status": "passed",
+                "duration": 104000000
+              },
+              "time": "00:00:00.104"
+            }
+          ],
+          "passed": 5,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 986000000,
+          "time": "00:00:00.986"
+        },
+        {
+          "id": "bdd-atlas-homepage-colour-quote;i-want-to-be-able-to-submit-a-cyan-quote",
+          "keyword": "Scenario",
+          "line": 25,
+          "name": "I want to be able to submit a Cyan Quote",
+          "tags": [
+            {
+              "name": "@TC002",
+              "line": 13
+            }
+          ],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 15,
+              "name": "I open BDD Atlas Web",
+              "result": {
+                "status": "passed",
+                "duration": 239000000
+              },
+              "time": "00:00:00.239"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 16,
+              "name": "I type a quote : coba coba text",
+              "result": {
+                "status": "passed",
+                "duration": 358000000
+              },
+              "time": "00:00:00.358"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 17,
+              "name": "I choose the Cyan Colour",
+              "result": {
+                "status": "passed",
+                "duration": 163000000
+              },
+              "time": "00:00:00.163"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 18,
+              "name": "I verify quote submitted \"Cyan\" and \"coba coba\"",
+              "result": {
+                "status": "passed",
+                "duration": 118000000
+              },
+              "time": "00:00:00.118"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 19,
+              "name": "I verify quote has been deleted : coba",
+              "result": {
+                "status": "passed",
+                "duration": 102000000
+              },
+              "time": "00:00:00.102"
+            }
+          ],
+          "passed": 5,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 980000000,
+          "time": "00:00:00.980"
+        },
+        {
+          "id": "bdd-atlas-homepage-colour-quote;i-want-to-be-able-to-submit-a-magenta-quote",
+          "keyword": "Scenario",
+          "line": 26,
+          "name": "I want to be able to submit a Magenta Quote",
+          "tags": [
+            {
+              "name": "@TC002",
+              "line": 13
+            }
+          ],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 15,
+              "name": "I open BDD Atlas Web",
+              "result": {
+                "status": "passed",
+                "duration": 209000000
+              },
+              "time": "00:00:00.209"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 16,
+              "name": "I type a quote : coba coba text",
+              "result": {
+                "status": "passed",
+                "duration": 339000000
+              },
+              "time": "00:00:00.339"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 17,
+              "name": "I choose the Magenta Colour",
+              "result": {
+                "status": "passed",
+                "duration": 162000000
+              },
+              "time": "00:00:00.162"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 18,
+              "name": "I verify quote submitted \"Magenta\" and \"coba coba\"",
+              "result": {
+                "status": "passed",
+                "duration": 104000000
+              },
+              "time": "00:00:00.104"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 19,
+              "name": "I verify quote has been deleted : coba",
+              "result": {
+                "status": "passed",
+                "duration": 105000000
+              },
+              "time": "00:00:00.105"
+            }
+          ],
+          "passed": 5,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 919000000,
+          "time": "00:00:00.919"
+        }
+      ],
+      "metadata": {
+        "browser": {
+          "name": "chrome",
+          "version": "93"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "Windows",
+          "version": "11"
+        }
+      },
+      "scenarios": {
+        "passed": 5,
+        "failed": 0,
+        "notDefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notdefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 5
+      },
+      "duration": 6588000000,
+      "time": "00:00:06.588",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "isNotdefined": false,
+      "isPending": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    }
+  ],
+  "featureCount": {
+    "ambiguous": 0,
+    "failed": 0,
+    "passed": 1,
+    "notDefined": 0,
+    "pending": 0,
+    "skipped": 0,
+    "total": 1,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "0.00",
+    "notdefinedPercentage": "0.00",
+    "pendingPercentage": "0.00",
+    "skippedPercentage": "0.00",
+    "passedPercentage": "100.00"
+  },
+  "reportName": "BDD Atlas",
+  "scenarios": {
+    "failed": 0,
+    "ambiguous": 0,
+    "notDefined": 0,
+    "pending": 0,
+    "skipped": 0,
+    "passed": 5,
+    "total": 5,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "0.00",
+    "notdefinedPercentage": "0.00",
+    "passedPercentage": "100.00",
+    "pendingPercentage": "0.00",
+    "skippedPercentage": "0.00"
+  },
+  "totalTime": 0
+}
