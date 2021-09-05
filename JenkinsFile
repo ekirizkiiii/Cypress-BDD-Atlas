@@ -37,7 +37,14 @@ pipeline{
     //always 
     post{
         always{
-            echo "ini adalah post"
+            publishHTML([
+                    allowMissing: false, 
+                    alwaysLinkToLastBuild: true, 
+                    keepAll: true, 
+                    reportDir: 'cypress/reports/', 
+                    reportFiles: 'index.html', 
+                    reportName: 'BDD Atlas MultiCucumber Reporter', 
+                    reportTitles: ''])
         }
     }
 }
